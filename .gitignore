@@ -1,3 +1,7 @@
 /.cache
 /build
 /.vscode
+llvm-project/
+llvm-project/*
+install/
+install/*

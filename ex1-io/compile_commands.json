@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/ex1-io",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17 -g -o CMakeFiles/ex1-io.dir/ex1-io.cpp.o -c /home/zhaowenya/mlir-tutorial/ex1-io/ex1-io.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/ex1-io/ex1-io.cpp",
+  "output": "CMakeFiles/ex1-io.dir/ex1-io.cpp.o"
+},
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/ex1-io",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17 -g -o CMakeFiles/ex2-build.dir/ex2-build/ex2-build.cpp.o -c /home/zhaowenya/mlir-tutorial/ex2-build/ex2-build.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/ex2-build/ex2-build.cpp",
+  "output": "CMakeFiles/ex2-build.dir/ex2-build/ex2-build.cpp.o"
+},
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/ex1-io",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include -I/home/zhaowenya/mlir-tutorial/ex7-convert/include -I/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17  -fno-exceptions -funwind-tables -g -o ex7-convert/lib/CMakeFiles/obj.Toy.dir/toy.cpp.o -c /home/zhaowenya/mlir-tutorial/ex7-convert/lib/toy.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/ex7-convert/lib/toy.cpp",
+  "output": "ex7-convert/lib/CMakeFiles/obj.Toy.dir/toy.cpp.o"
+},
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/ex1-io",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include -I/home/zhaowenya/mlir-tutorial/ex7-convert/include -I/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17  -fno-exceptions -funwind-tables -g -o ex7-convert/lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/ConvertToyToArith.cpp.o -c /home/zhaowenya/mlir-tutorial/ex7-convert/lib/Transforms/ConvertToyToArith.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/ex7-convert/lib/Transforms/ConvertToyToArith.cpp",
+  "output": "ex7-convert/lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/ConvertToyToArith.cpp.o"
+},
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/ex1-io",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include -I/home/zhaowenya/mlir-tutorial/ex7-convert/include -I/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17  -fno-exceptions -funwind-tables -g -o ex7-convert/lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/DCE.cpp.o -c /home/zhaowenya/mlir-tutorial/ex7-convert/lib/Transforms/DCE.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/ex7-convert/lib/Transforms/DCE.cpp",
+  "output": "ex7-convert/lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/DCE.cpp.o"
+},
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/ex1-io",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include -I/home/zhaowenya/mlir-tutorial/ex7-convert/include -I/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17  -fno-exceptions -funwind-tables -g -o ex7-convert/tools/toy-opt/CMakeFiles/ex7-opt.dir/toy-opt.cpp.o -c /home/zhaowenya/mlir-tutorial/ex7-convert/tools/toy-opt/toy-opt.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/ex7-convert/tools/toy-opt/toy-opt.cpp",
+  "output": "ex7-convert/tools/toy-opt/CMakeFiles/ex7-opt.dir/toy-opt.cpp.o"
+}
+]

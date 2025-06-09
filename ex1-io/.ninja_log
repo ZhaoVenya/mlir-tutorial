@@ -1,0 +1,21 @@
+# ninja log v5
+4	22	1749446797536234027	ex7-convert/include/toy/ToyPasses.h.inc	e8d1d7068074eca6
+4	22	1749446797536234027	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/ToyPasses.h.inc	e8d1d7068074eca6
+3	28	1749446797544234248	ex7-convert/include/toy/ToyDialect.cpp.inc	3bfa2d7b9eb22f9a
+3	28	1749446797544234248	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/ToyDialect.cpp.inc	3bfa2d7b9eb22f9a
+3	28	1749446797544234248	ex7-convert/include/toy/ToyDialect.h.inc	78e0fb722478d6fc
+3	28	1749446797544234248	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/ToyDialect.h.inc	78e0fb722478d6fc
+2	28	1749446797545234276	ex7-convert/include/toy/Toy.cpp.inc	13efce6f1f60da4c
+2	28	1749446797545234276	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/Toy.cpp.inc	13efce6f1f60da4c
+3	28	1749446797545234276	ex7-convert/include/toy/Toy.h.inc	c3895e16d39bbeb2
+3	28	1749446797545234276	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/Toy.h.inc	c3895e16d39bbeb2
+3	28	1749446797544234248	ex7-convert/include/toy/ToyTypes.cpp.inc	b753b420de27526b
+3	28	1749446797544234248	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/ToyTypes.cpp.inc	b753b420de27526b
+3	29	1749446797544234248	ex7-convert/include/toy/ToyTypes.h.inc	26bacdee503b6dad
+3	29	1749446797544234248	/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include/toy/ToyTypes.h.inc	26bacdee503b6dad
+23	2709	1749446800228308255	ex7-convert/lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/DCE.cpp.o	39f2d1b825caff14
+2	2794	1749446800314310622	CMakeFiles/ex1-io.dir/ex1-io.cpp.o	23ccd63f4f21b5d2
+2	2798	1749446800319310760	CMakeFiles/ex2-build.dir/ex2-build/ex2-build.cpp.o	be54061b8b009e87
+2798	2916	1749446800437314007	ex2-build	1c384965ad392381
+2795	2920	1749446800442314145	ex1-io	c4103065929e6e39
+29	4651	1749446802162361437	ex7-convert/lib/CMakeFiles/obj.Toy.dir/toy.cpp.o	7efff972301d81c2

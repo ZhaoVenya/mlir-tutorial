@@ -1,0 +1,21 @@
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/Toy.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/Toy.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/Toy.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/Toy.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/Toy.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/Toy.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"
+--- !FileInfo:
+  filepath: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/ToyPasses.td"
+  includes: "/home/zhaowenya/mlir-tutorial/ex7-convert/include/toy;/home/zhaowenya/vortex-project/llvm/llvm/include;/home/zhaowenya/vortex-project/llvm/build/include;/home/zhaowenya/vortex-project/llvm/mlir/include;/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include;/home/zhaowenya/mlir-tutorial/ex7-convert/include;/home/zhaowenya/mlir-tutorial/ex1-io/ex7-convert/include"

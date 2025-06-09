@@ -1,0 +1,11 @@
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/intrinsics_gen.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/omp_gen.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/acc_gen.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/mlir-tablegen-targets.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/mlir-headers.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/mlir-generic-headers.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/mlir-doc.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/mlir-toy.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/edit_cache.dir
+/home/zhaowenya/mlir-tutorial/mlir-toy/build/CMakeFiles/rebuild_cache.dir

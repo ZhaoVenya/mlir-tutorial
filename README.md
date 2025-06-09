@@ -265,7 +265,7 @@ cd llvm-project
 git checkout 186a4b3b657878ae2aea23caf684b6e103901162 # 本教程使用的版本
 mkdir build && cd build
 cmake -G Ninja ../llvm \
-  -DCMAKE_INSTALL_PREFIX=/mlir-tutorial/install \
+  -DCMAKE_INSTALL_PREFIX=/home/zhaowenya/mlir-tutorial/install \
   -DLLVM_ENABLE_PROJECTS=mlir \
   -DLLVM_BUILD_EXAMPLES=ON \
   -DLLVM_TARGETS_TO_BUILD="Native;NVPTX;AMDGPU" \
@@ -327,7 +327,7 @@ add_executable(mlir-toy main.cpp)
 
 ```bash
 cd build
-cmake .. -GNinja -DCMAKE_INSTALL_PREFIX=/mlir-tutorial/install
+cmake .. -GNinja -DCMAKE_INSTALL_PREFIX=/home/zhaowenya/mlir-tutorial/install
 ninja
 ```
 
@@ -385,7 +385,7 @@ int main(int argc, char ** argv) {
 }
 ```
 
-需要连接上所有依赖的文件：
+进入ex1-io文件夹，创建CMakeLists.txt, CMakeLists.txt文件写：
 
 ```cmake
 target_link_libraries(
@@ -396,11 +396,16 @@ target_link_libraries(
   MLIRArithDialect
 )
 ```
+在ex1-io文件夹下，构建、编译ex1-io:
+```bash
+cmake .. -G Ninja # 构建，完成后再编译
+ninja -j8 # 编译
+```
 
 测试方式：
 
 ```bash
-./ex1-io ../ex1-io/ex1.mlir
+./ex1-io ex1.mlir # 在ex1-io文件夹下运行
 ```
 
 ###  2.4. <a name='用代码生成-mlir'></a>用代码生成 MLIR

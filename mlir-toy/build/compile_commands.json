@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/zhaowenya/mlir-tutorial/mlir-toy/build",
+  "command": "/usr/bin/c++ -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zhaowenya/vortex-project/llvm/llvm/include -I/home/zhaowenya/vortex-project/llvm/build/include -I/home/zhaowenya/vortex-project/llvm/mlir/include -I/home/zhaowenya/vortex-project/llvm/build/tools/mlir/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -std=gnu++17 -o CMakeFiles/mlir-toy.dir/main.cpp.o -c /home/zhaowenya/mlir-tutorial/mlir-toy/main.cpp",
+  "file": "/home/zhaowenya/mlir-tutorial/mlir-toy/main.cpp",
+  "output": "CMakeFiles/mlir-toy.dir/main.cpp.o"
+}
+]

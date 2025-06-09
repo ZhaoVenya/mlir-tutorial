@@ -1,0 +1,22 @@
+ex7-convert/include/toy/ex7-convert/include/toy/ToyDialect.cpp.inc: \
+  /home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/ToyDialect.td \
+  /home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/ToyOps.td \
+  /home/zhaowenya/mlir-tutorial/ex7-convert/include/toy/ToyTypes.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/AttrTypeBase.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/CommonAttrConstraints.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/CommonTypeConstraints.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/Constraints.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/DialectBase.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/Interfaces.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/OpBase.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/Properties.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/RegionKindInterface.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/SymbolInterfaces.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/Traits.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/IR/Utils.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/Interfaces/CallInterfaces.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/Interfaces/ControlFlowInterfaces.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/Interfaces/FunctionInterfaces.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/Interfaces/InferTypeOpInterface.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/Interfaces/SideEffectInterfaceBase.td \
+  /home/zhaowenya/vortex-project/llvm/mlir/include/mlir/Interfaces/SideEffectInterfaces.td
