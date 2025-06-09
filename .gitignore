@@ -5,3 +5,16 @@ llvm-project/
 llvm-project/*
 install/
 install/*
+ex1-io/*
+!ex1-io/ex1.mlir
+!ex1-io/ex1-io.cpp
+!ex1-io/CMakeLists.tx
+ex2-build/*
+!ex2-build/ex2-build.cpp
+ex3-dialect/*
+!ex3-dialect/ex3.mlir
+!ex3-dialect/ex3-cse.mlir
+!ex3-dialect/CMakeLists.txt
+!ex3-dialect/tools/*
+!ex3-dialect/lib/*
+!ex3-dialect/include/toy/*

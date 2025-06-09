@@ -327,7 +327,7 @@ add_executable(mlir-toy main.cpp)
 
 ```bash
 cd build
-cmake .. -GNinja -DCMAKE_INSTALL_PREFIX=/home/zhaowenya/mlir-tutorial/install
+cmake .. -G Ninja -DCMAKE_INSTALL_PREFIX=/home/zhaowenya/mlir-tutorial/install
 ninja
 ```
 
@@ -493,7 +493,12 @@ func.func @test(%a: i32, %b: i32) -> i32 {
 }
 ```
 
-* `mlir-opt --mlir-print-op-generic` 来打印这里的代码，得到下面的代码。参数名被隐去，只有 function_type 作为 attribute 保留了下来。
+* `mlir-opt xxx.mlir --mlir-print-op-generic` 来打印这里的代码，得到下面的代码。参数名被隐去，只有 function_type 作为 attribute 保留了下来。
+在`mlir-tutorial`路径下，执行：
+```bash
+./install/bin/mlir-opt ex1-io/ex1.mlir --mlir-print-op-generic
+```
+终端输出：
     ```mlir
     "builtin.module"() ({
       "func.func"() <{function_type = (i32, i32) -> i32, sym_name = "test"}> ({
@@ -717,7 +722,7 @@ vscode 提供 mlir 扩展，可以为我们写 tablegen 文件提供帮助。在
 
 ####  6.3.1. <a name='tablegen-文件'></a>TableGen 文件
 
-1. `include/ToyDialect.td`：定义 Dialect 名字和cpp命名空间
+1. `ex3-dialect/include/toy/ToyDialect.td`：定义 Dialect 名字和cpp命名空间
 
     ```tablegen
     include "mlir/IR/OpBase.td"
@@ -728,7 +733,7 @@ vscode 提供 mlir 扩展，可以为我们写 tablegen 文件提供帮助。在
     }
     ```
 
-2. `include/ToyOps.td`：定义 Operation
+2. `ex3-dialect/include/toy/ToyOps.td`：定义 Operation
 
     ```tablegen
     include "mlir/IR/OpBase.td"
@@ -747,7 +752,7 @@ vscode 提供 mlir 扩展，可以为我们写 tablegen 文件提供帮助。在
     }
     ```
 
-3. `include/Toy.td`：把其他的 td include 到一起，用于交给 tablegen 生成
+3. `ex3-dialect/include/toy/Toy.td`：把其他的 td include 到一起，用于交给 tablegen 生成
 
     ```tablegen
     include "toy/ToyDialect.td"
@@ -759,7 +764,7 @@ vscode 提供 mlir 扩展，可以为我们写 tablegen 文件提供帮助。在
     include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
     ```
 
-4. `include/CMakeLists.txt`：调用 tablegen 生成代码，其中，第一个 Toy 是 Dialect 的名字，第二个 toy 指的是 `toy.td`
+4. `ex3-dialect/include/toy/CMakeLists.txt`：调用 tablegen 生成代码，其中，第一个 Toy 是 Dialect 的名字，第二个 toy 指的是 `toy.td`
 
     ```cmake
     add_mlir_dialect(Toy toy)
